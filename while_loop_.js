@@ -1,4 +1,4 @@
-                                    /*  - - - - - - - FOR LOOP - - - - - - - - - */
+                                    /*  - - - - - - - WHILE LOOP - - - - - - - - - */
 
 //* Loops can execute a block of code as long as a specified condition is true.
 
