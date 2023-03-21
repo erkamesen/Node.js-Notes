@@ -1,4 +1,4 @@
-
+                                    /*  - - - - - - - EXAMPLE - - - - - - - - - */
 
 /* 
 1. Define 3 variables that hold the values ​​of "bread", "apple", "cake".. take the first 3 letters of each word and join them with a "-" sign.
