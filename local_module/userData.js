@@ -6,7 +6,7 @@ function getMail(){
     return "erkamesen789@gmail.com"
 }   
 
-
+// commonJS
 module.exports.name = getName
 
 module.exports.getMail = getMail
