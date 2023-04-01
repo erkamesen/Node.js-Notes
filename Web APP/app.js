@@ -12,12 +12,17 @@ https://api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}&un
 */
 
 app.get("/", (req, res)=>{
-    const URL = "https://api.openweathermap.org/data/2.5/weather?q=karabuk&appid=4a31ef683d56f0c346bb510ab263c875&units=metric"
+    const URL = "https://api.openweathermap.org/data/2.5/weather?q=istanbul&appid=4a31ef683d56f0c346bb510ab263c875&units=metric"
     https.get(URL, function(response){
         response.on("data", (d) =>{
             const weatherData = JSON.parse(d)
-
-            res.send(weatherData.weather[0].description)
+            const temp = weatherData.main.temp
+            const weatherDescription = weatherData.weather[0].description
+            const icon = `http://openweathermap.org/img/wn/${weatherData.weather[0].icon}@2x.png`
+            res.write(`<h1>The temperature in Istanbul is ${temp} celsius degrees</h1>`)
+            res.write(`<img src="${icon}">`)
+            res.write(`<p>The weather is currently ${weatherDescription}</p>`)
+            res.send()
         })
     })
     
