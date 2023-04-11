@@ -1,6 +1,6 @@
 ## Fake API
 
-- For Fake Datas with JSON format. [click.](https://www.mockaroo.com/)
+- For create fake datas with JSON format. [click](https://www.mockaroo.com/)
 
 - Open terminal in folder:
 ```
