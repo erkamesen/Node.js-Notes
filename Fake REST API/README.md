@@ -1,6 +1,9 @@
 ## Fake API
 
-- Fake Datalar oluşturmak için [tıklayınız.](https://www.mockaroo.com/)
+- For Fake Datas with JSON format. [click.](https://www.mockaroo.com/)
 
-- Klasörün içinde terminal aç ve start:server komutu ile serveri başlat.
+- Open terminal in folder:
+```
+start:server
+```
 
